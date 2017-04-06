@@ -95,7 +95,7 @@ def processMovieWebsites(movieName):
         logging.debug("Got movie name: {movieName}".format(movieName=movieName))
         logging.debug("Working on {}".format(key))
         
-        page = requests.get(value["searchUrl"].format(enteredMovieName=movieName), headers=headerss)
+        page = requests.get(value["searchUrl"].format(enteredMovieName=movieName), headers=headers)
         tree = html.fromstring(page.content)
         
         results = tree.xpath(value["nofResults"])
