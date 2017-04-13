@@ -7,14 +7,16 @@ The project idea and more details about the requirement description can be found
 ## Requirements:
 * python 3
 * pip for installing required modules
-* lxml 3.7.3 (can be installed with pip)
-* requests 2.13.0 (can be installed with pip)
+* virtualenv (installed with pip)
 
 ## Usage:
-After installing every required module the user can simply run the script with the following command:
-```
-python3 imdb_alternatives.py
-```
+1. ```git clone https://github.com/AdamTakeow/imdb-alternatives.git imdb-alternatives```
+2. ```cd imdb-alternatives```
+3. create venv folder here
+4. ```virtualenv -p *path-to-python-executable* venv```
+5. activate virtual environment
+6. ```pip install -r requirements.txt```
+7. ```python imdb_alternatives.py```
 
 ![running example](https://github.com/AdamTakeow/imdb-alternatives/blob/master/readme_pictures/imdb_alternatives_example.png "Example run of the script")
 
