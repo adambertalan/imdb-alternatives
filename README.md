@@ -16,7 +16,7 @@ After installing every required module the user can simply run the script with t
 python3 imdb_alternatives.py
 ```
 
-![alt text](https://github.com/AdamTakeow/imdb-alternatives/readme_pictures/imdb_alternatives_example "Example run of the script")
+![running example](https://github.com/AdamTakeow/imdb-alternatives/blob/master/readme_pictures/imdb_alternatives_example.png "Example run of the script")
 
 When the script starts, the user can enter a movie name that will be searched on these websites:
 * https://www.themoviedb.org/
