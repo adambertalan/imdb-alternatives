@@ -16,7 +16,7 @@ webpages and opens them in your browser's tabs.
 6. `pip install -r requirements.txt`
 7. `python imdb_alternatives.py`
 
-![running example](https://github.com/AdamTakeow/imdb-alternatives/blob/master/assets/screenshot.png "Example run of the script")
+![running example](https://github.com/AdamTakeow/imdb-alternatives/blob/master/readme_pictures/imdb_alternatives_example.png "Example run of the script")
 
 When the script starts, the user is asked to enter a movie title.
 The movie is searched on these websites:
